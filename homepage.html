@@ -1,0 +1,27 @@
+
+<?php
+		session_start();
+		if(!isset($_SESSION['username'])){
+			header("location:../");
+	}
+		?>
+
+<html>
+	<head>
+			<title>Home page</title>
+			<link rel="stylesheet" href="css/stylesheet.css">
+	</head>
+	
+	<body>
+		<div id="loginSection">
+				
+				<h1>Welcome  <?php echo $_SESSION['username']?>!</h1>
+				<h2 style="color:green">Congratulations! You have successfully logged in.</h2>
+				<form action="../api/api.php" method="POST">
+					<a href="/webpage/last.html" button id="logoutbtn" type="submit" name="logoutbtn">Logout</button></a><br><br>
+				
+					
+			
+		</div>
+	</body>
+</html>

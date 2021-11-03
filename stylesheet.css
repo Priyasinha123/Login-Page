@@ -1,0 +1,36 @@
+	#loginSection{
+		margin: 5%;
+		text-align: center;
+	}
+
+	input{
+		padding: 10px;
+		font-size: 15px;
+		border-radius: 10px;
+	}
+	
+	#loginbtn{
+		padding: 10px;
+		font-size: 15px;
+		border-radius: 10px;
+		color: white;
+		background-color: purple;
+	}
+	
+	#registerbtn{
+		padding: 10px;
+		font-size: 15px;
+		border-radius: 10px;
+		color: white;
+		background-color: green;
+	}
+	
+	#logoutbtn{
+		padding: 10px;
+		font-size: 15px;
+		border-radius: 10px;
+		color: white;
+		background-color: purple;
+	}
+		
+		
